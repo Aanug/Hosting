@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting | App for all</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="styles/utilities.css">
+<link rel="stylesheet" href="styles/style.css">
+<body>
+<div class="navbar">
+    <div class="container flex">
+        <hi class="logo">Hosting</hi>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">features</a></li>
+                <li><a href="docs.html">Docs</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Easy Host</h1>
+                <p>Host all kinds of web infrastructure from large scale API, to static web pages</p>
+                <a href="features.html" class="btn btn-outline">Learn more...</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Demo</h2>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label >Don't fill this out if you're human:<input name="bot-field" /></label>
+                    </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="Company" placeholder=" Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="email" required>
+                    </div>
+                    <input type="submit" value="send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1"> 
+                Welcome to the best platform for hosting applications
+                <br> and projects of all modern infrastructure.
+            </h3>
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>6,367,089</h3>
+                    <p class="text-secondary">Deployments</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>950 TB</h3>
+                    <p class="text-secondary">Hosted</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>2,300,153</h3>
+                    <p class="text-secondary">Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cli -->
+    <section class="cli">
+        <div class="container grid">
+            <img src="hosting.png" alt="">
+            <div class="card">
+                <h3>Easy to use, cross platform Cli</h3>
+            </div>
+            <div class="card">
+                <h3>Fast Deploy</h3>
+            </div>
+        </div>    
+    </section>
+    <section class="cloud bg-primary py-2 my-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Cloud Hosting</h2>
+                <p class="lead my-1">Cloud hosting like you've never seen. scalable, efficient and fast.</p>
+                <a href="features.html" class="btn btn-dark">Read more</a>
+            </div>
+            <img src="cloud.png" alt="cloud">
+        </div>
+    </section>
+    <!-- languages -->
+    <section class="languages">
+        <h2 class="md text-center my-2">Supported Languages</h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Java</h4>
+                <img src="java.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>JS</h4>
+                <img src="js.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="ruby.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Swift</h4>
+                <img src="swift.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Hosting</h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
